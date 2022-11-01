@@ -11,12 +11,10 @@ while (score > 0 && score < 30) {
     switch (firstQuestion) {
         case "Rome":
             score = score + 5;
-            // confirm("You are right!");
             console.log("Your score is: " + score);
             break;
         default:
             score = score - 5;
-            // confirm("You are wrong");
             console.log("Your score is: " + score);
             break;
     }
@@ -25,12 +23,10 @@ while (score > 0 && score < 30) {
     switch (secondQuestion) {
         case "Paris":
             score = score + 5;
-            // confirm("You are right!");
             console.log("Your score is: " + score);
             break;
         default:
             score = score - 5;
-            // confirm("You are wrong");
             console.log("Your score is: " + score);
             break;
     }
@@ -39,12 +35,10 @@ while (score > 0 && score < 30) {
     switch (thirdQuestion) {
         case "Madrid":
             score = score + 5;
-            // confirm("You are right!");
             console.log("Your score is: " + score);
             break;
         default:
             score = score - 5;
-            // confirm("You are wrong");
             console.log("Your score is: " + score);
             break;
     }
